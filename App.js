@@ -39,9 +39,9 @@ export default function App() {
   const cameraRef = useRef(null);
 
   const [request, response, promptAsync] = Google.useAuthRequest({
-    androidClientId: '1:601429116777:android:0deba5516cac5d9edd9ff8.apps.googleusercontent.com',
-    iosClientId: '1:601429116777:ios:ceaec8d6ee51211add9ff8.apps.googleusercontent.com',
-    webClientId: '1:601429116777:web:e1c06f70ed129cb7dd9ff8.apps.googleusercontent.com',
+    androidClientId: '601429116777:android:0deba5516cac5d9edd9ff8.apps.googleusercontent.com',
+    iosClientId: '601429116777:ios:ceaec8d6ee51211add9ff8.apps.googleusercontent.com',
+    webClientId: '601429116777:web:e1c06f70ed129cb7dd9ff8.apps.googleusercontent.com',
   });
 
   useEffect(() => {
